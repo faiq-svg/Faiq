@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day, Maddoo!</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #f7f7f7, #e2e2e2);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #8e4b8d;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        .heart {
+            font-size: 70px;
+            color: #8e4b8d;
+            animation: heartbeat 1.5s infinite alternate;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+        .message {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            color: #555;
+            font-weight: 300;
+        }
+        button {
+            background-color: #8e4b8d;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-top: 30px;
+            border-radius: 30px;
+            transition: all 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #7a3c76;
+            transform: scale(1.05);
+        }
+
+        /* Love Letter Section */
+        .letters {
+            display: none;
+            margin-top: 30px;
+            font-size: 1.2rem;
+            text-align: left;
+            color: #555;
+            font-weight: 300;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .letter {
+            background: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+        .letter-title {
+            font-weight: 600;
+            color: #8e4b8d;
+            margin-bottom: 8px;
+        }
+        .letter-content {
+            font-style: italic;
+            color: #666;
+        }
+
+        /* Final Message */
+        .final-message {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 40px;
+            color: #8e4b8d;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy Valentine's Day, Maddoo!</h1>
+    <div class="heart">❤️</div>
+    <p class="message">Every moment with you is special. Thank you for being in my life. 😘</p>
+
+    <button onclick="showLetters()">Click for Your Love Letters</button>
+
+    <!-- Love Letters Section -->
+    <div class="letters" id="letters">
+        <div class="letter">
+            <p class="letter-title">Letter 1: To My Heart</p>
+            <p class="letter-content">"You are the rhythm that makes my heart beat. I feel complete with you by my side." 💖</p>
+        </div>
+        <div class="letter">
+            <p class="letter-title">Letter 2: Always With You</p>
+            <p class="letter-content">"I want to spend every moment of my life with you, now and forever. You're my heart's home." 🌹</p>
+        </div>
+        <div class="letter">
+            <p class="letter-title">Letter 3: My Joy</p>
+            <p class="letter-content">"Your smile brightens my day, and your presence fills me with joy. I’m so lucky to have you." 😘</p>
+        </div>
+        <div class="letter">
+            <p class="letter-title">Letter 4: Forever Together</p>
+            <p class="letter-content">"No matter what the future holds, I’ll always cherish you. You are my soulmate, Maddoo." ❤️</p>
+        </div>
+    </div>
+
+    <!-- Final Message -->
+    <p class="final-message">I love you, meri jawwn 😭❤️🫶🏻</p>
+
+    <script>
+        function showLetters() {
+            document.getElementById("letters").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
